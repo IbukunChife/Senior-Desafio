@@ -6,11 +6,6 @@ interface registerDTO {
   employerId: string; 
 }
 
-// interface registerAnswerDTO {
-//   message: string;
-//   system: string;
-// }
-
 class RegisterUseCases {
 
   async execute (Data:registerDTO) : Promise<any> {

@@ -56,7 +56,6 @@ class Sqs {
     }catch(e){
       throw new AppError("Messages Attributes Error !!!");
     }
-
   }
 
   async deleteCommand(ReceiptHandle: string): Promise<any>{
