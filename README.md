@@ -35,7 +35,7 @@ No terminal, sendo que você está na pasta principal do arquivo
 você roda o "yarn dev". esse commando inicializará o servidor 
 
 ## Testando com a Insomia
---
+---
 Para testar a api, encontra se dentra da pasta um arquivo JSON
 na pasta Insomnia.
  
@@ -64,6 +64,9 @@ Vale ressaltar inclusive que uma parte da análise da fila
 tem que ser feita olhando dentro da conta amazon. Por exemplo,
 Os dados que estão entrando na fila e o status que ela possuem
 quando a Api está consumindo as informações nelas.
+
+[![Assista o video teste ](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/YIuDSbWnMaU)
+
 
 ### Organização das Pastas
 ---
