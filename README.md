@@ -35,7 +35,7 @@ AWS_QUEUE_APIVERSION: '2012-11-05'
 No terminal, sendo que você está na pasta principal do arquivo
 você roda o **"yarn dev"**. esse commando inicializará o servidor 
 
-## Testando com a Insomia
+## Testando com a Insomnia
 ---
 Para testar a api, encontra se dentra da pasta um arquivo JSON
 na pasta Insomnia.
