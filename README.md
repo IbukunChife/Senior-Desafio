@@ -33,7 +33,7 @@ AWS_QUEUE_APIVERSION: '2012-11-05'
 ```
 
 No terminal, sendo que você está na pasta principal do arquivo
-você roda o "yarn dev". esse commando inicializará o servidor 
+você roda o **"yarn dev"**. esse commando inicializará o servidor 
 
 ## Testando com a Insomia
 ---
