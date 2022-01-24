@@ -17,6 +17,7 @@ consumo realizado com sucesso, a api manda um comando para excluir
 da fila o elemento consumido. E assim vai...
 
 ## Processo de Instalação
+---
 É preciso primeiro clonar esse repositório no computador que já tem
 instalado o gerenciador de pacote "Yarn".
 
@@ -53,10 +54,10 @@ Basta escrever um objeto JSON com as seguintes configurações:
  "employerId": 900
 }
 ```
-e encaminha pelo método POST para a url :
+e encaminha pelo método POST para a url:
 http://localhost:3003/register/point
  
- 
+
 Esse teste consiste a mandar várias requisições POST para
 a API e esperar a resposta que esse último retornará.
  
