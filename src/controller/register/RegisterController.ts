@@ -9,7 +9,10 @@ class RegisterController{
     const  sqs = new Sqs();
     const registerUsecases = new RegisterUseCases()
     const { employeeId, employerId, includedAt} = request.body;
-    const wait = (ms: number | undefined) => new Promise(resolve => setTimeout(resolve, ms));
+    const wait = (ms: number | undefined) => new Promise((resolve,reject) => setTimeout(resolve, ms))
+    .catch((error)=>{
+      throw new AppError("Promise wait is failed",error);
+    });
 
     //ADD THE NEW DATA INTO THE QUEUE
     await sqs.sendCommand(employeeId, employerId, includedAt)
@@ -36,7 +39,7 @@ class RegisterController{
       try{
         var results = await registerUsecases.execute(JSON.parse(element.Body))
         
-        // console.log(' resultados ',results)
+        console.log(' resultados ',results)
         if(results.hasOwnProperty('message') && results.hasOwnProperty('system')){
 
           //DELETED AN ELEMENT OF THE QUEUE
