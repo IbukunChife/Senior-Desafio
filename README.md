@@ -65,7 +65,7 @@ tem que ser feita olhando dentro da conta amazon. Por exemplo,
 Os dados que estão entrando na fila e o status que ela possuem
 quando a Api está consumindo as informações nelas.
 
-[![Assista o video teste ](https://www.pexels.com/pt-br/foto/texto-965345/)](https://youtu.be/YIuDSbWnMaU)
+[![Assista o video teste ](https://www.pexels.com/pt-br/foto/texto-965345)](https://youtu.be/YIuDSbWnMaU)
 
 
 ### Organização das Pastas
