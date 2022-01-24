@@ -70,7 +70,7 @@ quando a Api está consumindo as informações nelas.
 ### Video Testando e Explicando a API - Register Point
 ---
 Clique na imagem a baixo para assistir o video Testando e Explicando
-o Register Point
+o Register Point no Youtube ou Baixe o Video na pasta Extra no arquivo.
 [![Assista o video teste ](Extra/justImage.jpg)](https://youtu.be/YIuDSbWnMaU)
 
 
