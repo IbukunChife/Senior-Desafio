@@ -23,13 +23,13 @@ instalado o gerenciador de pacote "Yarn".
 Em seguinte criar um arquivo .env e colocar as seguinte variáveis de
 ambiente:
 
-/**
+```env
 AWS_ACCESS_KEY_ID= < O SEU AMAZON ACCESS KEY ID>
 AWS_SECRET_ACCESS_KEY = < O SEU AMAZON SECRET ACCESS KEY >
 AWS_REGION= < AMAZON REGION >
 AWS_QUEUE_URL= < AMAZON_QUEUE_URL >
 AWS_QUEUE_APIVERSION: '2012-11-05'
-**/
+```
 
 No terminal, sendo que você está na pasta principal do arquivo
 você roda o "yarn dev". esse commando inicializará o servidor 
