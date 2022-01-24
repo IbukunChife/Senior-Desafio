@@ -74,7 +74,7 @@ o Register Point
 [![Assista o video teste ](Extra/justImage.jpg)](https://youtu.be/YIuDSbWnMaU)
 
 
-### Organização das Pastas
+### Organização das Pastas e Funcionamento da Api
 ---
 ```TXT
 src --> config   --> SQS --> Sqs.ts 
@@ -91,3 +91,4 @@ tsconfig.json
 .env
 .gitignore
 ```
+![Funcionamento](Extra/RP-Funcao.jpg)
