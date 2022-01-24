@@ -91,4 +91,4 @@ tsconfig.json
 .env
 .gitignore
 ```
-![Funcionamento](Extra/RP-Funcao.jpg)
+![Funcionamento](Extra/RP-Funcao.png)
