@@ -65,6 +65,8 @@ tem que ser feita olhando dentro da conta amazon. Por exemplo,
 Os dados que estão entrando na fila e o status que ela possuem
 quando a Api está consumindo as informações nelas.
 
+Clique na imagem a baixo para assistir o video Testando e Explicando
+o Register Point
 [![Assista o video teste ](Extra/justImage.jpg)](https://youtu.be/YIuDSbWnMaU)
 
 
